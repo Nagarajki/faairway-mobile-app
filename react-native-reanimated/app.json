@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "AwesomeProjec",
-    "slug": "AwesomeProjec",
+    "name": "react-native-reanimated",
+    "slug": "react-native-reanimated",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -15,23 +15,16 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true,
-      "bundleIdentifier": "com.vishanuki.AwesomeProjec"
+      "supportsTablet": true
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      },
-      "package": "com.vishanuki.AwesomeProjec"
+      }
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    },
-    "extra": {
-      "eas": {
-        "projectId": "774e747e-3ec3-41f8-afe6-3d8c71903ebd"
-      }
     }
   }
 }
